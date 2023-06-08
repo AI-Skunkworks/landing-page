@@ -703,8 +703,8 @@ body.loaded .footer-desktop {
 /* Typography Start */
 /* ------------------------------------------------*/
 h1 {
-  font: normal 400 4rem/1.2 "Poppins", sans-serif;
-  color: #ffffff;
+    font: normal 400 4rem/1.2 "Poppins", sans-serif;
+    color: #dddddd;
 }
 @media only screen and (min-width: 768px) {
   h1 {
@@ -722,10 +722,10 @@ h1 {
 }
 
 .headline__subtitle {
-  display: block;
-  font: normal 600 1.8rem/1.6 "Poppins", sans-serif;
-  color: #ffffff;
-  margin-bottom: 2.3rem;
+    display: block;
+    font: normal 600 1.8rem/1.6 "Poppins", sans-serif;
+    color: #dddddd;
+    margin-bottom: 2.3rem;
 }
 
 .headline__btnholder {
@@ -812,21 +812,21 @@ p.copyright {
   font: normal 500 1.2rem/1.6 "Poppins", sans-serif;
   color: #aaaaaa;
 }
-p.copyright a {
-  font: normal 500 1.2rem/1.6 "Poppins", sans-serif;
-  color: #aaaaaa;
-}
+    p.copyright a {
+        font: normal 500 1.2rem/1.6 "Poppins", sans-serif;
+        color: #d4af37;
+    }
 .no-touch p.copyright a:hover {
-  color: #ffffff;
+    color: #d4af37;
 }
 p.bright {
-  color: #ffffff;
+    color: #d4af37;
 }
-p.bright a {
-  color: #ffffff;
-}
+    p.bright a {
+        color: #d4af37;
+    }
 .no-touch p.bright a:hover {
-  color: #ffffff;
+    color: #d4af37;
 }
 @media only screen and (min-width: 1400px) {
   p {
@@ -1008,27 +1008,27 @@ a {
   -moz-border-radius: 1px;
        border-radius: 1px;
 }
-.menu-trigger .burger::before, .menu-trigger .burger::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  right: auto;
-  -webkit-transform: translateX(-50%);
-     -moz-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-  -moz-border-radius: 1px;
-       border-radius: 1px;
-  -webkit-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -o-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -moz-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-}
+    .menu-trigger .burger::before, .menu-trigger .burger::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: auto;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 100%;
+        height: 100%;
+        background-color: #d4af37;
+        -moz-border-radius: 1px;
+        border-radius: 1px;
+        -webkit-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -o-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -moz-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    }
 .menu-trigger .burger::before {
   -webkit-transform: translateX(-50%) translateY(-4px);
      -moz-transform: translateX(-50%) translateY(-4px);
@@ -1208,57 +1208,57 @@ a {
 }
 
 .btn-outline-light {
-  border: 2px solid #ffffff;
-  background-color: transparent;
-  color: #ffffff;
+    border: 2px solid #d4af37;
+    background-color: transparent;
+    color: #d4af37;
 }
 
 .btn-light {
-  font-weight: 700;
-  border: 2px solid #ffffff;
-  background-color: #ffffff;
-  color: #141414;
+    font-weight: 700;
+    border: 2px solid #d4af37;
+    background-color: #d4af37;
+    color: #141414;
 }
 
 .btn-s-text {
-  display: block;
-  font: normal 600 1.4rem/1.6 "Poppins", sans-serif;
-  color: #ffffff;
+    display: block;
+    font: normal 600 1.4rem/1.6 "Poppins", sans-serif;
+    color: #d4af37;
 }
-.btn-s-text .title {
-  display: block;
-  position: relative;
-  font-size: 1.4rem;
-  color: #ffffff;
-  -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-}
-.btn-s-text .hover {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 1.4rem;
-  color: #ffffff;
-  -webkit-transform: translateY(100%);
-     -moz-transform: translateY(100%);
-      -ms-transform: translateY(100%);
-          transform: translateY(100%);
-  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-}
+    .btn-s-text .title {
+        display: block;
+        position: relative;
+        font-size: 1.4rem;
+        color: #d4af37;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    }
+    .btn-s-text .hover {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 1.4rem;
+        color: #d4af37;
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        transform: translateY(100%);
+        -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    }
 .no-touch .btn-s-text:hover .title {
   -webkit-transform: translateY(-100%);
      -moz-transform: translateY(-100%);
@@ -1285,40 +1285,40 @@ a {
 .btn-s i {
   display: inline-block;
 }
-.btn-s .title {
-  display: none;
-  position: relative;
-  font-size: 1.4rem;
-  color: #ffffff;
-  -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-}
-.btn-s .hover {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 1.4rem;
-  color: #ffffff;
-  -webkit-transform: translateY(100%);
-     -moz-transform: translateY(100%);
-      -ms-transform: translateY(100%);
-          transform: translateY(100%);
-  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-}
+    .btn-s .title {
+        display: none;
+        position: relative;
+        font-size: 1.4rem;
+        color: #d4af37;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    }
+    .btn-s .hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 1.4rem;
+        color: #d4af37;
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        transform: translateY(100%);
+        -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    }
 .no-touch .btn-s:hover .title {
   -webkit-transform: translateY(-100%);
      -moz-transform: translateY(-100%);
@@ -1755,7 +1755,7 @@ form input.margin-l, form textarea.margin-l {
 }
 
 .header.split {
-  background-color: #0c0c0c;
+  background-color: #232323;
 }
 .header.split .header__left,
 .header.split .header__right {
@@ -1763,7 +1763,7 @@ form input.margin-l, form textarea.margin-l {
 }
 .header.split .header__left.menu-is-visible,
 .header.split .header__right.menu-is-visible {
-  background-color: #0c0c0c;
+  background-color: #232323;
 }
 .header.split .header__left.menu-is-visible .header__left,
 .header.split .header__left.menu-is-visible .header__right,
@@ -1808,7 +1808,7 @@ form input.margin-l, form textarea.margin-l {
 }
 @media only screen and (min-width: 1200px) {
   .header.split {
-    background-color: transparent;
+    background-color: #232323;
   }
   .header.split .header__left {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
