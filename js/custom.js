@@ -198,7 +198,7 @@ $(function() {
   // --------------------------------------------- //
   $('.notify-form').ajaxChimp({
     callback: mailchimpCallback,
-    url: 'https://besaba.us10.list-manage.com/subscribe/post?u=e8d650c0df90e716c22ae4778&amp;id=54a7906900'
+    url: 'https://crbnai.us21.list-manage.com/subscribe/post?u=0ee5a9114b454a8da5c876f7a&amp;id=0d56769941&amp;f_id=007a5be1f0'
   });
 
   function mailchimpCallback(resp) {
