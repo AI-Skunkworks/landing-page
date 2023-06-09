@@ -734,7 +734,7 @@ h1 {
 
 .headline__text {
   font: normal 400 1.6rem/1.6 "Poppins", sans-serif;
-  color: #aaaaaa;
+  color: #afafaf;
   max-width: 480px;
   margin-bottom: 4.4rem;
 }
@@ -746,8 +746,8 @@ h1 {
 }
 
 h2 {
-  font: normal 400 3rem/1.2 "Poppins", sans-serif;
-  color: #ffffff;
+    font: normal 400 3rem/1.2 "Poppins", sans-serif;
+    color: #dddddd;
 }
 @media only screen and (min-width: 768px) {
   h2 {
@@ -761,10 +761,10 @@ h2 {
 }
 
 .block__subtitle {
-  display: block;
-  font: normal 600 1.8rem/1.2 "Poppins", sans-serif;
-  color: #aaaaaa;
-  margin-bottom: 2.2rem;
+    display: block;
+    font: normal 600 1.8rem/1.2 "Poppins", sans-serif;
+    color: #d4af37;
+    margin-bottom: 2.2rem;
 }
 
 .block__text {
@@ -773,18 +773,18 @@ h2 {
 
 h3 {
   font: normal 500 2rem/1.2 "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
 }
 
 h4 {
   font: normal 500 1.8rem/1.2 "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
 }
 h4 small {
   display: block;
   margin-top: 0.2rem;
   font: normal 300 1.4rem/1.6 "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
 }
 h4.opposite {
   font-weight: 600;
@@ -797,21 +797,21 @@ h4.opposite small {
 
 h5 {
   font: normal 500 1.8rem/1.2 "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
 }
 
 p {
   font: normal 300 1.4rem/1.6 "Poppins", sans-serif;
-  color: #aaaaaa;
+  color: #afafaf;
 }
 p span {
   font-weight: 500;
-  color: #ffffff;
+  color: #dddddd;
 }
-p.copyright {
-  font: normal 500 1.2rem/1.6 "Poppins", sans-serif;
-  color: #aaaaaa;
-}
+    p.copyright {
+        font: normal 500 1.2rem/1.6 "Poppins", sans-serif;
+        color: #d4af37;
+    }
     p.copyright a {
         font: normal 500 1.2rem/1.6 "Poppins", sans-serif;
         color: #d4af37;
@@ -840,7 +840,7 @@ a {
 
 .text-link {
   color: inherit;
-  color: #aaaaaa;
+  color: #afafaf;
   text-decoration: none;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), -webkit-gradient(linear, left top, right top, from(white), to(white));
   background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), -moz-linear-gradient(left, white, white);
@@ -857,14 +857,14 @@ a {
   transition: background-size 400ms, color 300ms, -moz-background-size 400ms;
 }
 .no-touch .text-link:hover {
-  color: #ffffff;
+  color: #dddddd;
   -moz-background-size: 0 1px, 100% 1px;
        background-size: 0 1px, 100% 1px;
 }
 
 .contact-link {
   color: inherit;
-  color: #aaaaaa;
+  color: #afafaf;
   text-decoration: none;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left top, right top, from(white), to(white));
   background: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), -moz-linear-gradient(left, white, white);
@@ -881,24 +881,24 @@ a {
   transition: background-size 400ms, color 300ms, -moz-background-size 400ms;
 }
 .no-touch .contact-link:hover {
-  color: #ffffff;
+  color: #dddddd;
   -moz-background-size: 0 1px, 100% 1px;
        background-size: 0 1px, 100% 1px;
 }
 
 .image-caption p {
-  font: normal 500 1.8rem/1.2 "Poppins", sans-serif;
-  color: #141414;
+    font: normal 500 1.8rem/1.2 "Poppins", sans-serif;
+    color: #dddddd;
 }
-.image-caption p span {
-  display: block;
-  font: normal 400 1.4rem/1.6 "Poppins", sans-serif;
-  color: #141414;
-  margin-top: 0.2rem;
-}
+    .image-caption p span {
+        display: block;
+        font: normal 400 1.4rem/1.6 "Poppins", sans-serif;
+        color: #dddddd;
+        margin-top: 0.2rem;
+    }
 .image-caption.opposite p {
   font-weight: 400;
-  color: #ffffff;
+  color: #dddddd;
 }
 .image-caption.opposite p span {
   display: block;
@@ -908,7 +908,7 @@ a {
 
 .popup-title__title {
   font: normal 400 3rem/1.2 "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
 }
 @media only screen and (min-width: 768px) {
   .popup-title__title {
@@ -918,7 +918,7 @@ a {
 
 .popup-title__text {
   font: normal 300 1.6rem/1.6 "Poppins", sans-serif;
-  color: #aaaaaa;
+  color: #afafaf;
   margin-top: 2.5rem;
 }
 @media only screen and (min-width: 768px) {
@@ -965,33 +965,33 @@ a {
   width: 2.4rem;
   height: 2.4rem;
 }
-.menu-trigger .circle {
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-     -moz-transform: translateX(-50%) translateY(-50%);
-      -ms-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-  width: 4rem;
-  height: 4rem;
-  -moz-border-radius: 50%;
-       border-radius: 50%;
-  border: 2px solid #ffffff;
-  -webkit-transform: translateX(-50%) translateY(-50%) scale(0);
-     -moz-transform: translateX(-50%) translateY(-50%) scale(0);
-      -ms-transform: translateX(-50%) translateY(-50%) scale(0);
-          transform: translateX(-50%) translateY(-50%) scale(0);
-  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-}
+    .menu-trigger .circle {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        right: auto;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        width: 4rem;
+        height: 4rem;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 2px solid #d4af37;
+        -webkit-transform: translateX(-50%) translateY(-50%) scale(0);
+        -moz-transform: translateX(-50%) translateY(-50%) scale(0);
+        -ms-transform: translateX(-50%) translateY(-50%) scale(0);
+        transform: translateX(-50%) translateY(-50%) scale(0);
+        -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    }
 .menu-trigger .burger {
   display: block;
   position: absolute;
@@ -1099,11 +1099,11 @@ a {
   margin-bottom: 1.4rem;
   height: 4rem;
   padding: 0 2rem;
-  border: 2px solid #ffffff;
+  border: 2px solid #dddddd;
   -moz-border-radius: 2rem;
        border-radius: 2rem;
   font: normal 600 1.4rem/3.6rem "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
 }
 .btn-l:last-of-type {
   margin-bottom: 0;
@@ -1280,7 +1280,7 @@ a {
   height: 3.4rem;
   margin-right: 2rem;
   font: normal 600 1.4rem/3.4rem "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
 }
 .btn-s i {
   display: inline-block;
@@ -1591,31 +1591,31 @@ form input.margin-l, form textarea.margin-l {
 
 .form-light ::-webkit-input-placeholder {
   font-weight: 300;
-  color: #ffffff;
+  color: #dddddd;
 }
 .form-light :-moz-placeholder {
   font-weight: 300;
-  color: #ffffff;
+  color: #dddddd;
 }
 .form-light ::-moz-placeholder {
   font-weight: 300;
-  color: #ffffff;
+  color: #dddddd;
 }
 .form-light :-ms-input-placeholder {
   font-weight: 300;
-  color: #ffffff;
+  color: #dddddd;
 }
 .form-light input:focus:required:invalid,
 .form-light textarea:focus:required:invalid {
-  color: #ffffff;
+  color: #dddddd;
 }
 .form-light input:required:valid,
 .form-light textarea:required:valid {
-  color: #ffffff;
+  color: #dddddd;
 }
 .form-light input, .form-light textarea {
   border-bottom: 2px solid white;
-  color: #ffffff;
+  color: #dddddd;
 }
 .form-light input:focus, .form-light textarea:focus {
   border-bottom: 2px solid rgba(255, 255, 255, 0.5);
@@ -1644,19 +1644,19 @@ form input.margin-l, form textarea.margin-l {
   display: block;
   margin: 0 auto 1.7rem;
   font-size: 4rem;
-  color: #ffffff;
+  color: #dddddd;
 }
 
 .reply-group__title {
   font: normal 400 2rem/1.2 "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
   margin-bottom: 0.2rem;
 }
 
 .reply-group__text {
   display: block;
   font: normal 300 1.4rem/1.6 "Poppins", sans-serif;
-  color: #aaaaaa;
+  color: #afafaf;
 }
 
 /* ------------------------------------------------*/
@@ -1808,7 +1808,8 @@ form input.margin-l, form textarea.margin-l {
 }
 @media only screen and (min-width: 1200px) {
   .header.split {
-    background-color: #232323;
+    background-color: transparent;
+
   }
   .header.split .header__left {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1818,7 +1819,7 @@ form input.margin-l, form textarea.margin-l {
     border-bottom: 1px solid rgba(255, 255, 255, 0);
   }
   .header.split.menu-is-visible {
-    background-color: transparent;
+   /* background-color: transparent;*/
   }
   .header.split.menu-is-visible .header__left,
 .header.split.menu-is-visible .header__right {
@@ -2258,7 +2259,7 @@ form input.margin-l, form textarea.margin-l {
   display: inline-block;
   overflow: hidden;
   font: normal 400 3rem/1.6 "Poppins", sans-serif;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(221, 221, 221, 0.4);
 }
 .navigation li::after {
   content: "/";
@@ -2289,24 +2290,24 @@ form input.margin-l, form textarea.margin-l {
   transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
   color: rgba(255, 255, 255, 0.4);
 }
-.navigation li a .link-hover {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  -webkit-transform: translateY(100%);
-     -moz-transform: translateY(100%);
-      -ms-transform: translateY(100%);
-          transform: translateY(100%);
-  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  color: #ffffff;
-}
+    .navigation li a .link-hover {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        transform: translateY(100%);
+        -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -o-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        -moz-transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+        color: #dddddd;
+    }
 .no-touch .navigation li a:hover .link-title {
   -webkit-transform: translateY(-100%);
      -moz-transform: translateY(-100%);
@@ -2321,7 +2322,7 @@ form input.margin-l, form textarea.margin-l {
 }
 .navigation li a.active-link .link-title,
 .navigation li a.active-link .link-hover {
-  color: #ffffff;
+    color: #dddddd;
 }
 @media only screen and (min-width: 768px) {
   .navigation li {
@@ -2377,7 +2378,7 @@ form input.margin-l, form textarea.margin-l {
 .media__countdown #countdown {
   position: relative;
   font: normal 400 4rem/1.2 "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
 }
 .media__countdown .countdown-period {
   display: inline-block;
@@ -2491,7 +2492,7 @@ form input.margin-l, form textarea.margin-l {
   left: -0.4rem;
   width: 1.6rem;
   height: 1.6rem;
-  border: 1px solid #ffffff;
+  border: 1px solid #dddddd;
   -moz-border-radius: 50%;
        border-radius: 50%;
   opacity: 0;
@@ -2504,11 +2505,11 @@ form input.margin-l, form textarea.margin-l {
   transition: all 0.3s;
 }
 .no-touch .swiper-pagination-bullet:hover {
-  background-color: #ffffff;
+  background-color: #dddddd;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #ffffff;
+  background-color: #dddddd;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -2528,7 +2529,7 @@ form input.margin-l, form textarea.margin-l {
   margin-top: 0;
   top: auto;
   bottom: 0;
-  color: #ffffff;
+  color: #dddddd;
   overflow: hidden;
 }
 .split-slider-btn-ignite-prev i,
@@ -2672,7 +2673,7 @@ form input.margin-l, form textarea.margin-l {
   font-size: 1.6rem;
   text-align: center;
   line-height: 4rem;
-  color: #ffffff;
+  color: #dddddd;
 }
 .no-touch .popup-close:hover {
   color: rgba(255, 255, 255, 0.4);
@@ -2914,7 +2915,7 @@ form input.margin-l, form textarea.margin-l {
   top: 0;
   left: 0;
   font: normal 500 2rem/1.6 "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
 }
 
 .skillbar-bar {
@@ -2924,7 +2925,7 @@ form input.margin-l, form textarea.margin-l {
   left: 0;
   width: 0px;
   height: 1px;
-  background-color: #ffffff;
+  background-color: #dddddd;
 }
 
 .skill-bar-percent {
@@ -2936,7 +2937,7 @@ form input.margin-l, form textarea.margin-l {
   -webkit-font-feature-settings: "lnum";
      -moz-font-feature-settings: "lnum";
           font-feature-settings: "lnum";
-  color: #ffffff;
+  color: #dddddd;
 }
 
 /* ------------------------------------------------*/
@@ -2987,7 +2988,7 @@ form input.margin-l, form textarea.margin-l {
 }
 
 .contactdata__title {
-  color: #ffffff;
+  color: #dddddd;
   margin: 0 0 1.2rem 0;
 }
 
@@ -3004,16 +3005,16 @@ form input.margin-l, form textarea.margin-l {
 }
 .contactdata__icon i {
   font-size: 1.4rem;
-  color: #ffffff;
+  color: #dddddd;
 }
 
 .contactdata__text {
   font: normal 300 1.4rem/1.6 "Poppins", sans-serif;
-  color: #aaaaaa;
+  color: #afafaf;
 }
 .contactdata__text p, .contactdata__text a {
   font: normal 300 1.4rem/1.6 "Poppins", sans-serif;
-  color: #aaaaaa;
+  color: #afafaf;
 }
 
 .contactdata__socials {
@@ -3023,7 +3024,7 @@ form input.margin-l, form textarea.margin-l {
 .contactdata__socials li {
   display: block;
   font: normal 300 1.4rem/1.6 "Poppins", sans-serif;
-  color: #aaaaaa;
+  color: #afafaf;
   margin-bottom: 0.2rem;
 }
 .contactdata__socials li:last-of-type {
@@ -3032,7 +3033,7 @@ form input.margin-l, form textarea.margin-l {
 .contactdata__socials li i {
   display: inline-block;
   font-size: 1.4rem;
-  color: #ffffff;
+  color: #dddddd;
   margin-right: 1rem;
   min-width: 1.4rem;
 }
@@ -3173,7 +3174,7 @@ form input.margin-l, form textarea.margin-l {
 }
 .pswp__caption__center h4 {
   font: normal 500 1.8rem/1.2 "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
   margin-bottom: 1.4rem;
 }
 .pswp__caption__center h4 small {
@@ -3189,7 +3190,7 @@ form input.margin-l, form textarea.margin-l {
 
 .pswp__counter {
   font: normal 500 1.6rem/44px "Poppins", sans-serif;
-  color: #ffffff;
+  color: #dddddd;
 }
 
 .pswp__button--close {
@@ -3221,7 +3222,7 @@ form input.margin-l, form textarea.margin-l {
 
 .pswp__button--close {
   position: relative;
-  background-color: #ffffff;
+  background-color: #dddddd;
 }
 .pswp__button--close:active {
   opacity: 1;
